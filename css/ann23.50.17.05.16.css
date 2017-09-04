@@ -1,0 +1,150 @@
+/*CONTACTS.ANN--------*/
+@media screen and (max-width: 480px) {
+	.s_r_lg {
+		display: none;
+	}
+	footer > .background_grey > .double-menu {
+		display: none;
+	}
+	footer {
+		margin-top: 30px;
+	}	
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) {
+	.s_r_xs {
+		display: none;
+	}
+	.foto_map > img {
+		width: 100%;
+	}
+	.foto_club > img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 841px) {
+	.s_r_xs {
+		display: none;
+	}
+}
+
+
+/*GALLERY.ANN--------*/
+@media screen and (max-width: 480px) {
+	.c_g_lg {
+		display: none;
+	}
+	.c_g_xs > .gallery > .row > .cell > img {
+	width: 100%;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) {
+	.c_g_xs {
+		display: none;
+	}
+	.c_g_lg > .gallery > .row > .cell > img {	
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 841px) {
+	.c_g_xs {
+		display: none;
+	}	
+}
+
+
+/*TIMETABLE.ANN----???----*/
+@media screen and (max-width: 480px) {
+	.t_d_lg {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 481px) {
+	.t_d_xs {
+		display: none;
+	}	
+}
+
+.training_days > .row > div > img {
+	margin: 10px;
+} 
+
+.training_days {
+	margin-right: -50;
+	margin-left: -50;
+}
+
+
+/*CHILDREN_COMSA.ANN----???----*/
+@media screen and (max-width: 480px) {
+	.c_f_f_lg {
+		display: none;
+	}
+	.c_f_f_sm {
+		display: none;
+	}	
+	.none {
+		display: none;
+	}	
+	.c_f_f_xs > .row > div > img {
+		margin-top: 15px;
+	}
+	
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) {
+	.c_f_f_xs {
+		display: none;
+	}
+	.c_f_f_lg {
+		display: none;
+	}	
+	.wtf > .images > .col-sm-4 > img {	
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 841px) {
+	.c_f_f_xs {
+		display: none;
+	}	
+	.c_f_f_sm {
+		display: none;
+	}	
+}
+
+
+/*FITNESS.ANN----???----*/
+@media screen and (max-width: 480px) {
+	.f_i_lg {
+		display: none;
+	}		
+	.none {
+		display: none;
+	}
+	.halls > div > img {
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 840px) {
+	.f_i_xs {
+		display: none;
+	}		
+	.youga > .images > .col-sm-4 > img {	
+		width: 100%;
+	}
+	.halls > div > img {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 841px) {
+	.f_i_xs {
+		display: none;
+	}
+}

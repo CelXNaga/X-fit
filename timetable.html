@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Расписание</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+		<header>
+			<div class="container header comsa">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="logo">
+							<img src="i/logo.png" width="172px" height="100">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="change_club">
+							<img src="i/change_club.png">
+						</div>	
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="clubs club_sormo">
+							<div class="green_club">
+								<p>X-FIT Сормовский</p>
+							</div>
+							<p class="phone">Телефон: (831) 42-388-42</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="clubs club_comsa">
+							<div class="green_club">
+								<p>X-FIT Комсомольский</p>
+							</div>
+							<p class="phone">Телефон: (831)467-80-90</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+		</header>
+<!--MAIN MAIN-->
+<div class="container main-menu comsa">
+	<div class="row">
+		<div class="navbar navbar-default menu" id="menu">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+						<span class="sr-only">Открыть навигацию</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="responsive-menu">
+					<ul class="nav navbar-nav" id="not_main_menu">
+						<li><a href="#">О НАС</a></li>
+						<li class="dropdown" id="item_clubs"><a href="#" class="dropdown-toggle" data-toggle="dropdown">КЛУБЫ</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">X-fit Комсомольский</a></li>
+								<li><a href="#">X-fit Сормовский</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ФИТНЕС И УСЛУГИ</a>
+							<ul class="dropdown-menu" id="fitnes-menu">
+								<li><a href="#">Тренажерный зал</a></li>
+								<li><a href="#">Групповые фитнес программы</a></li>
+								<li><a href="#">Бассейн</a></li>
+								<li><a href="#">Персональный треннинг</a></li>
+								<li><a href="#">Детский фитнес клуб</a></li>
+								<li><a href="#">Фитнес тестирование</a></li>
+								<li><a href="#">SPA - студия красоты</a></li>
+								<li><a href="#">Фитнес кафе</a></li>
+							</ul>
+						</li>
+						<li><a href="#">РАСПИСАНИЕ</a></li>
+						<li><a href="#">ЦЕНЫ</a></li>
+						<li><a href="#">ВИДЫ КАРТ</a></li>
+						<li><a href="#">НАЧИНАЮЩЕМУ</a></li>
+						<li><a href="#">КОНТАКТЫ</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+		
+	
+		<!--ГЛАВНЫЙ БЛОК-->
+
+<main class="time_table">
+	<div class="container">
+		<div class="row">
+				<div class="title">
+					<h3>РАСПИСАНИЕ X-FIT КОМСОМОЛЬСКИЙ</h3>
+				</div>
+		</div>
+		<div class="row">
+		<!--BREADCRUMB-->
+			<ol class="breadcrumb">
+				<li><a href="#">Главная</a></li>
+				<li class="active"><a href="#">Расписание</a></li>
+			</ol>
+		</div>
+	</div>
+
+	<div class="container icon_tt">
+		<div class="row">
+			<div class="green_block col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">
+				<img src="i/time_table/green_man.png"><p>РАСПИСАНИЕ ГРУППОВЫХ ПРОГРАММ 1 СЕЗОН 2016 Г.</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container tt">
+		<div class="row">
+			<div class="title col-lg-7 col-lg-offset-3 col-md-7 col-md-offset-3 col-sm-7 col-sm-offset-3 col-xs-7 col-xs-offset-3">
+				<h4>РАСПИСАНИЕ ГРУППОВЫХ ПРОГРАММ 1 СЕЗОН 2016 Г.</h4>
+			</div>
+		</div>
+
+		<div class="form_table row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+				<img src="i/time_table/grey_form.png">
+			</div>
+		</div>
+		<!--УТОЧНИТЬ НА ЧЕМ ДЕЛАТЬ ФОРМУ, ПОКА КОСТЫЛЬ
+		<div class="row">
+			<div class="col-lg-7 col-lg-offset-3 col-md-7 col-md-offset-3 col-sm-7 col-sm-offset-3 col-xs-7 col-xs-offset-3">
+				<form>
+					<select name="#">
+						<option value="1"></option>
+					</select>
+					<p>c</p>
+					<select name="#">
+						<option value="1"></option>
+					</select>
+					<p>до</p>
+					<select name="#">
+						<option value="1"></option>
+					</select>
+
+				</form>
+			</div>
+		-->	
+	</div>
+		<div class="row days">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/week_days/week1.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/week_days/week2.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/week_days/week3.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/week_days/week4.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/week_days/week5.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/week_days/week6.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/week_days/week7.png">
+			</div>	
+		</div>
+		<div class="row s-0">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_1.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_1.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_1.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_1.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_1.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week6_1.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week7_1.png">
+			</div>	
+		</div>
+		<div class="row s-1">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_2.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_2.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_2.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_2.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_2.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week6_2.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week7_2.png">
+			</div>	
+		</div>
+		<div class="row s-2">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_3.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_3.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_3.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_3.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_3.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week6_3.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week7_3.png">
+			</div>	
+		</div>
+		<div class="row s-3">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_4.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_4.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_4.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_4.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_4.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week6_4.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week7_4.png">
+			</div>	
+		</div>
+		<div class="row s-4">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_5.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_5.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_5.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_5.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_5.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week6_5.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week7_5.png">
+			</div>	
+		</div>
+		<div class="row s-5">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_6.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_6.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_6.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_6.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_6.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week6_6.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week7_6.png">
+			</div>
+		</div>
+		<div class="row s-6">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_7.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_7.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_7.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_7.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_7.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week6_7.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week7_7.png">
+			</div>
+		</div>
+		<div class="row s-7">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_8.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_8.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_8.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_8.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_8.png">
+			</div>	
+						
+		</div>
+		<div class="row s-8">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_9.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_9.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_9.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week4_9.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week5_9.png">
+			</div>	
+						
+		</div>
+		<div class="row s-8">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_10.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_10.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_10.png">
+			</div>	
+									
+		</div>
+		<div class="row s-9">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_11.png">
+			</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week2_11.png">
+			</div>	
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+				<img src="i/time_table/time_table/week3_11.png">
+			</div>	
+									
+		</div>
+		<div class="row s-9">
+			<div class="col-lg-1 col-lg-offset-3 col-md-1 col-md-offset-3 col-sm-1 col-sm-offset-3 col-xs-1 col-xs-offset-3">
+				<img src="i/time_table/time_table/week1_12.png">
+			</div>
+										
+		</div>
+	</div>
+
+	<!--ЛЕГЕНДА-->
+
+	<div class="legend">
+		<div class="row s-0">
+			<div class="cell col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-2 col-xs-offset-2">
+				<img src="i/time_table/circle_1_lime.png">
+				<p>Кардио-программы</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_2_white.png">
+				<p>Платный урок</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_3_red.png">
+				<p>Силовые программы</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_4_brown.png">
+				<p>Специальные программы</p>
+			</div>
+		</div>
+		<div class="row s-1">
+			<div class="cell col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-2 col-xs-offset-2">
+				<img src="i/time_table/circle_5_brightyellow.png">
+				<p>Функциональный тренинг</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_6_coral.png">
+				<p>Мама+Я</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_7_darkgreen.png">
+				<p>Боевые искусства</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_8_orange.png">
+				<p>Детские спортивные секции</p>
+			</div>
+		</div>
+		<div class="row s-2">
+			<div class="cell col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-2 col-xs-offset-2">
+				<img src="i/time_table/circle_9_blue.png">
+				<p>Mind & Body</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_10_violet.png">
+				<p>Творвческая мастерская</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_11_lightyellow.png">
+				<p>Танцевальные классы</p>
+			</div>
+			<div class="cell col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<img src="i/time_table/circle_12_lightgreen.png">
+				<p>В тренажерном зале</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="container downloads">
+		<a href=""><img src="#"></a>
+		<a href=""><p>Скачать полное расписание</p></a>
+	</div>
+
+
+</main>
+
+<footer>
+<!--Дублирующее меню-->
+<div class="container double-menu">
+	<div class="row">
+		<div class="navbar navbar-default" id="dmenu">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+						<span class="sr-only">Открыть навигацию</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="responsive-menu">
+					<ul class="nav navbar-nav">
+						<li><a href="#">О НАС</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">КЛУБЫ</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">X-fit Комсомольский</a></li>
+								<li><a href="#">X-fit Сормовский</a></li>
+							</ul>
+						</li>
+						<li><a href="#">ФИТНЕС И УСЛУГИ</a></li>
+						<li><a href="#">РАСПИСАНИЕ</a></li>
+						<li><a href="#">ЦЕНЫ</a></li>
+						<li><a href="#">ВИДЫ КАРТ</a></li>
+						<li><a href="#">НАЧИНАЮЩЕМУ</a></li>
+						<li><a href="#">КОНТАКТЫ</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>		
+
+
+<!--КОНТАКТЫ-->
+<div class="down_string container">
+	<div class="row">
+			<div class="logo col-lg-2  col-md-2  col-sm-2  col-xs-2">
+				<img src="i/logo.png" width="172px" height="100">
+			</div>
+			<div class="adress col-lg-5  col-md-5  col-sm-5  col-xs-5">
+				<p>X-FIT Комсомольский: пер.Мотальный, 8 Тел.: (831) 467-80-90</p>
+				<p>X-FIT Сормовский: ул. Дмитрия Павлова, 13 Тел.: (831) 42-388-42</p>
+			</div>
+			<div class="social_nets col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-3 col-xs-offset-2">
+				<p>Мы в социальных сетях</p>
+				<img src="i/facebook.png">
+				<img src="i/vk.png">
+			</div>
+	</div>
+</div>
+
+<div class="sign container">
+	<div class="row">
+			<div class="alpha col-lg-5  col-md-5  col-sm-5  col-xs-5">
+				<p>"ИКС-ФИТ" - спортивный фитнес клуб Нижнего Новгорода</p>
+			</div>
+			<div class="oters_links col-lg-3 col-lg-offset-4 col-md-3 col-md-offset-4 col-sm-3 col-sm-offset-4 col-xs-3 col-xs-offset-4">
+				<img src="i/link1.png">
+				<img src="i/link2.png">
+			</div>
+	</div>
+</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
